@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="VoDuSqb_W1oBRhaJcbZx">
-    <mxGraphModel dx="1520" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Start" vertex="1">
-          <mxGeometry height="60" width="100" x="360" y="30" as="geometry" />
+          <mxGeometry height="60" width="100" x="275" y="-1230" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-17" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ohqiV13EJUTEeWVLxKLX-16" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -26,26 +26,26 @@
             <mxPoint x="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohqiV13EJUTEeWVLxKLX-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div&gt;time to&amp;nbsp;&lt;/div&gt;&lt;div&gt;reach p_i is&lt;/div&gt;&lt;div&gt;t&amp;gt;x1?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="100" x="360" y="250" as="geometry" />
+        <mxCell id="ohqiV13EJUTEeWVLxKLX-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div&gt;time to&amp;nbsp;&lt;/div&gt;&lt;div&gt;reach p_i is&lt;/div&gt;&lt;div&gt;t&amp;gt;x_1?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="275" y="-710" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-27" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ohqiV13EJUTEeWVLxKLX-26" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-16" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;div&gt;Do small talk while going to the art piece&lt;/div&gt;p_i" vertex="1">
-          <mxGeometry height="60" width="120" x="510" y="270" as="geometry" />
+          <mxGeometry height="60" width="120" x="425" y="-690" as="geometry" />
         </mxCell>
-        <mxCell id="ohqiV13EJUTEeWVLxKLX-20" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ohqiV13EJUTEeWVLxKLX-14" value="">
+        <mxCell id="hGzrej2ueAqps2Gm594_-5" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hGzrej2ueAqps2Gm594_-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-18" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Introduction" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="130" as="geometry" />
+          <mxGeometry height="60" width="120" x="265" y="-1130" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-38" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ohqiV13EJUTEeWVLxKLX-37" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-22" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="No small talk while going to the art piece p_i" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="410" as="geometry" />
+          <mxGeometry height="60" width="120" x="265" y="-550" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-29" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ohqiV13EJUTEeWVLxKLX-28" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -63,28 +63,26 @@
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohqiV13EJUTEeWVLxKLX-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeWidth=2;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;reach destination in less than x2 seconds?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="170" x="485" y="400" as="geometry" />
+        <mxCell id="ohqiV13EJUTEeWVLxKLX-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeWidth=2;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;reach destination in less than x_2 seconds?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="400" y="-560" as="geometry" />
         </mxCell>
-        <mxCell id="ohqiV13EJUTEeWVLxKLX-39" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="570" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="XD8jbk-unpy3W58HDEIh-9" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XD8jbk-unpy3W58HDEIh-8" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ohqiV13EJUTEeWVLxKLX-28" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="start to end conversation" vertex="1">
-          <mxGeometry height="60" width="120" x="510" y="540" as="geometry" />
+        <mxCell id="ohqiV13EJUTEeWVLxKLX-28" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="start to end small talk" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="-420" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-35" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ohqiV13EJUTEeWVLxKLX-16" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-32" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="pass" vertex="1">
-          <mxGeometry height="60" width="120" x="680" y="270" as="geometry" />
+          <mxGeometry height="60" width="120" x="595" y="-690" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-45" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ohqiV13EJUTEeWVLxKLX-44" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-37" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="reached destination and start explaining art p_i" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="660" as="geometry" />
+          <mxGeometry height="60" width="120" x="265" y="-190" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-47" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ohqiV13EJUTEeWVLxKLX-46" value="N">
           <mxGeometry relative="1" x="-0.9046" y="-10" as="geometry">
@@ -100,18 +98,57 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-44" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeWidth=2;" value="Is there any interruption?" vertex="1">
-          <mxGeometry height="80" width="120" x="350" y="760" as="geometry" />
+          <mxGeometry height="80" width="120" x="265" y="-90" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-50" edge="1" parent="1" source="ohqiV13EJUTEeWVLxKLX-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="220" as="targetPoint" />
+            <mxPoint x="325" y="-740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ohqiV13EJUTEeWVLxKLX-46" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="pass" vertex="1">
-          <mxGeometry height="60" width="120" x="210" y="190" as="geometry" />
+        <mxCell id="ohqiV13EJUTEeWVLxKLX-46" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;div&gt;Ask which art piece want to be seen first&lt;/div&gt;&lt;div&gt;(defaul answer is the art piece haven&#39;t visited)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="135" y="-780" as="geometry" />
         </mxCell>
         <mxCell id="ohqiV13EJUTEeWVLxKLX-51" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="End" vertex="1">
-          <mxGeometry height="60" width="100" x="360" y="880" as="geometry" />
+          <mxGeometry height="60" width="100" x="275" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XD8jbk-unpy3W58HDEIh-5" edge="1" parent="1" source="XD8jbk-unpy3W58HDEIh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ohqiV13EJUTEeWVLxKLX-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XD8jbk-unpy3W58HDEIh-1" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="&lt;div&gt;Ask which art piece want to be seen first&lt;/div&gt;&lt;div&gt;(defaul answer is p_1)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="265" y="-860" as="geometry" />
+        </mxCell>
+        <mxCell id="hGzrej2ueAqps2Gm594_-1" edge="1" parent="1" source="XD8jbk-unpy3W58HDEIh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD8jbk-unpy3W58HDEIh-8" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="after end of talking, update the talking style based on small talk answers *and the guest mood*" vertex="1">
+          <mxGeometry height="80" width="120" x="425" y="-300" as="geometry" />
+        </mxCell>
+        <mxCell id="hGzrej2ueAqps2Gm594_-6" edge="1" parent="1" source="hGzrej2ueAqps2Gm594_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XD8jbk-unpy3W58HDEIh-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGzrej2ueAqps2Gm594_-7" connectable="0" parent="hGzrej2ueAqps2Gm594_-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Y" vertex="1">
+          <mxGeometry relative="1" x="-0.2211" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGzrej2ueAqps2Gm594_-10" edge="1" parent="1" source="hGzrej2ueAqps2Gm594_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hGzrej2ueAqps2Gm594_-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hGzrej2ueAqps2Gm594_-12" connectable="0" parent="hGzrej2ueAqps2Gm594_-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="N" vertex="1">
+          <mxGeometry relative="1" x="-0.812" y="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hGzrej2ueAqps2Gm594_-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeWidth=2;" value="Ask customer want to be accompanied by robot or not" vertex="1">
+          <mxGeometry height="110" width="170" x="240" y="-1020" as="geometry" />
+        </mxCell>
+        <mxCell id="hGzrej2ueAqps2Gm594_-9" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="pass" vertex="1">
+          <mxGeometry height="60" width="120" x="670" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hGzrej2ueAqps2Gm594_-11" edge="1" parent="1" source="hGzrej2ueAqps2Gm594_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ohqiV13EJUTEeWVLxKLX-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -19,14 +19,14 @@ A. Scenario of the Environment and Flowchart of Small Talk Process
 		c. to end small talk, insert sentence like: "anyway, now we have arrived at p_i". 
 		d. after ending the small talk, update the way the of talking 
 		e. the process repeated for the next art piece
-	3. based on small talk result (the answer of persona informations), all of that is stored, so when the guest come again, the robot use the recorded talking style  
+	3. based on small talk result (the answer of persona information), all of that is stored, so when the guest come again, the robot use the recorded talking style  
 
 B. Assumptions and Scope of the Problem
 
 assumptions:
 	1. The hallway assumed to be straight
 	2. Robot assumed have v m/s speed
-	
+	3. *LLM is good enough to understand the mood of the guest based on the small talk and adjust the talking style based on the answer and mood*
 
 scope of the problem
 	1. Guest behavior only split into 2, like robots or not. This can be detected by the response of the guest in the small talk session
