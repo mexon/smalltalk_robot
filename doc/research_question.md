@@ -19,10 +19,7 @@ system.
 
 ## Research Question
 
-Does adjusting robot behaviour based on small talk during the journey
-between exhibits enhance the robot acceptance of the visitor and lead
-to a more enjoyable visit, compared to purely functional interaction
-during those journeys?
+How can small talk help a robot adjust its manner and enhance the visit enjoyment of a museum visitor?
 
 ## Constructs
 
