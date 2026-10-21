@@ -1,0 +1,279 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{amssymb,amsthm}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{glossaries}
+\usepackage{subcaption}  % Untuk subfigure
+\usepackage{pdfpages}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\input{title}
+\input{abstract}
+\input{intro}
+\input{related}
+\input{approach}
+\input{evaluation}
+\input{discussion}
+\input{conclusion}
+\input{acknowledgement}
+\input{references}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \begin{enumerate}
+%     \item Sistem tidak mempunyai \textit{delay} sama sekali dan tidak ada \textit{first order lag}.
+%     \item Gaya selain gaya gesek, gaya beban mobil, dan gaya akibat angin, tidak ditinjau.
+%     \item Hal-hal yang terjadi pada mesin dari mobil tidak ditinjau, seperti pedal gas dan rem. 
+% \end{enumerate}
+
+
+% Dalam pembuatan sistem \textit{cruise control}, dilakukan peninjauan pustaka mengenai sistem \textit{cruise control}. Kebanyakan model sistem \textit{cruise control} yang ditinjau menggunakan contoh mobil. Dalam hal ini mobil yang ditinjau berada di sebuah tanjakan yang konstan sudutnya dengan gaya yang dikenakan ke mobil adalah gaya hambatan angin \eqref{eq:bab1-fd}, gaya gesek \eqref{eq:bab1-ff}, dan gaya beban mobil \eqref{eq:bab1-fg}. Gambar \ref{fig:bab1-dbbsistem} adalah Diagram Benda Bebas (DBB) sistem yang ditinjau \cite{utama1,utama2-osman,utama2-prakash,utama2-rout,utama2-vedam}. 
+
+% \begin{figure}[htbp]
+%     \centering
+%     \includegraphics[width=0.35\textwidth]{S_Gambar/sistem.png}
+%     \caption{Diagram Benda Bebas Sistem yang Ditinjau}
+%     \label{fig:bab1-dbbsistem}
+% \end{figure}
+
+% \begin{eqnarray}
+%     F_d &=& c_d(v_{angin}+v_{mobil})^2 \label{eq:bab1-fd}\\
+%     F_f &=& c_f  m  g  cos(\theta)\label{eq:bab1-ff}\\
+%     F_f &=& m g sin(\theta)\label{eq:bab1-fg}
+% \end{eqnarray}
+
+% \noindent Keterangan:
+% \begin{align*}
+%     &\theta &= & \text{Sudut tanjakan}\\
+%     &c_f &= & \text{Konstanta gesek}\\
+%     &c_d &= & \text{Konstanta \textit{drag} (${Kg}/{m}$)}\\
+%     &m &= & \text{Massa Benda (\textit{Kg})}\\
+%     &g &= & \text{Gravitasi (${m}/{s^2}$)}\\
+%     &v_{angin} &= & \text{Kecepatan angin (${m}/{s}$)}\\
+%     &v_{mobil} &= & \dot{x}(t) = \text{Kecepatan mobil (${m}/{s}$)}\\
+%     &f(t) &= & \text{Gaya Mobil (\textit{N})}
+% \end{align*}
+
+
+% Model keadaan ruang/\textit{state-space} adalah model matematika yang merepresentasikan sistem fisik dan mendeksripsikan perilaku sistem dalam variabel keadaan atau \textit{state-variable}. Persamaan umum dari model keadaan ruang adalah persamaan keadaan atau \textit{state-equation} \eqref{eq:bab1-stateeq} dan persamaan output atau \textit{output-equation} \eqref{eq:bab1-outeq}\cite{buku-ogata2010modern,buku2-wade2004basic,cc-app3}. 
+
+% \begin{eqnarray}
+%    \mathbf{\dot{x}} &=& \mathbf{Ax+Bu} \label{eq:bab1-stateeq}\\
+%     \mathbf{y} &=& \mathbf{Cx}\label{eq:bab1-outeq}
+% \end{eqnarray}
+
+% \noindent Keterangan:
+% \begin{align*}
+%     &n &= & \text{Orde tertinggi persamaan differensial}\\
+%     &\mathbf{A} &= & \text{Matriks nxn}\\
+%     &\mathbf{B} &= & \text{Matriks nxm}\\
+%     &\mathbf{C} &= & \text{Matriks nxn}\\
+%     &\mathbf{u} &= & \text{Vektor input}\\
+%     &\mathbf{x} &= & \text{Vektor keadaan}\\
+%     &\mathbf{y} &= & \text{Vektor output}
+% \end{align*}
+
+% \eqref{eq:bab1-linearisasi}.
+
+% \begin{equation}
+%     \begin{split}
+%         \text{A} &= \frac{\delta f(x(t),u(t))}{\delta x(t)} \bigg|_{x^*(t),u^*(t)}\\
+%         \text{B} &= \frac{\delta f(x(t),u(t))}{\delta u(t)} \bigg|_{x^*(t),u^*(t)}\\
+%         \text{C} &= \frac{\delta g(x(t),u(t))}{\delta x(t)} \bigg|_{x^*(t),u^*(t)}\label{eq:bab1-linearisasi}
+%     \end{split}
+% \end{equation}
+
+
+
+
+% \begin{equation}
+%     \mathbb{C} = 
+%     \begin{bmatrix}
+%     \mathbf{B} & \mathbf{AB} &\mathbf{ A^2B} & ... & \mathbf{A^{\textit{n}-1}B}  \label{eq:bab1-controlability}
+%     \end{bmatrix}
+% \end{equation}
+
+
+% \begin{equation}
+%     \mathbb{O} = 
+%     \begin{bmatrix}
+%     \mathbf{C} \\ \mathbf{CA} \\ \mathbf{CA^2} \\ ... \\ \mathbf{CA^{\textit{n}-1}}  \label{eq:bab1-observability}
+%     \end{bmatrix}
+% \end{equation}
+
+
+
+
+
+
+
+
+% \begin{equation}
+% \resizebox{0.4\textwidth}{!}{%
+%     \begin{split}
+%             \begin{bmatrix}
+%     \dot{x_1}\\\dot{x_2}
+%     \end{bmatrix}
+%     &=&
+%     \begin{bmatrix}
+%     0 & 1\\0 & -0,0132
+%     \end{bmatrix}    
+%     \begin{bmatrix}
+%     {x_1}\\{x_2}
+%     \end{bmatrix}&
+%     +
+%     \begin{bmatrix}
+%     0\\ -9,7358
+%     \end{bmatrix}
+%     u(t)\\
+%     y &=&
+%     \begin{bmatrix}
+%     0 & 1
+%     \end{bmatrix}
+%     \begin{bmatrix}
+%     {x_1}\\{x_2}
+%     \end{bmatrix}&  \label{eq:bab2-stateeq-linearize-withconstanta}  
+%     \end{split}}
+% \end{equation}
+
+% \begin{align*}
+% R &=10^{-8}\\
+%     \mathbf{Q} &= \begin{bmatrix}
+%         1 &0\\0&{10^{-5}}
+%     \end{bmatrix}
+% \end{align*}
+    
+% \begin{align*}
+% R &=10\\
+%     \mathbf{Q} &= \begin{bmatrix}
+%         1 &0\\0&{10^{-5}}
+%     \end{bmatrix}
+% \end{align*}
+
+% \begin{align*}
+% R &=10^{-8}\\
+%     \mathbf{Q} &= \begin{bmatrix}
+%         1 &0\\0&{2}
+%     \end{bmatrix}
+% \end{align*}
+
+
+
+
+
+% %-====================
+% \section{Kode MATLAB untuk Pengujian}
+% \label{lamp:pengujian}
+
+% \begin{lstlisting}[language=C++, caption={Kode Pengujian Kestabilan, Keterkontrolan, dan Keteramatan}]
+
+% \end{lstlisting}
+
+% %-====================
+% \section{Kode MATLAB untuk Pengontrol Sistem dengan Metode LQR}
+% \label{lamp:lqr}
+
+
+% \begin{lstlisting}[language=C++, caption={Pengontrol Sistem dengan Metode LQR}]
+
+% \end{lstlisting}
+
+% %-====================
+
+% \section{Kode MATLAB untuk Pengontrol Sistem dengan Metode \textit{Pole-Placement}}
+% \label{lamp:pole}
+
+% \begin{lstlisting}[language=C++, caption={Pengontrol Sistem dengan Metode \textit{Pole-Placement}}]
+
+% \end{lstlisting}
+
+
+% %-====================
+% \section{Tambahan Kode MATLAB untuk Simulasi dengan Sinyal Input Berbeda}
+% \label{lamp:kode-tambahan}
+
+
+% \begin{lstlisting}[language=C++, caption={Tambahan Simulasi Kode MATLAB}]
+
+% \end{lstlisting}
+% \end{document}
