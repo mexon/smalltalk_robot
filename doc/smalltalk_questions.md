@@ -8,8 +8,15 @@ The following questions are designed to satisfy the following criteria:
 2. Allow for yes/no or monosyllabic answers as well as longer answers
 3. Conform to usual social expectations between strangers: no probing personal questions
 4. Do not require additional knowledge about the museum visitor
-5. Lead to responses that can be analysed for openness and friendliness
+5. Lead to responses that can be analysed for openness and friendliness --> must be open question, not close question
 6. Should be independent of each other
+
+
+## Technique and Criteria:
+
+1. asking for followup questions --> increase likability [1]
+2. open question 
+3. topic switching question --> switch to close question to end quickly conversation, but somewhat still related to the previous topic [1]
 
 ## Questions
 
@@ -35,3 +42,12 @@ is one reason the questions should be chosen to be independent of one
 another.  It also reduces cognitive load for the visitor, who does not
 have to balance two conversational threads simultaneousl.  Finally, it
 also reduces the complexity of the LLM prompt.
+
+
+
+#### source:
+[1] https://www.library.hbs.edu/working-knowledge/elements-of-meaningful-conversation-fewer-mirror-questions-more-follow-ups
+
+[2] Fine, D. (2014). The Fine Art Of Small Talk: How to Start a Conversation in Any Situation. Britania Raya: Little, Brown Book Group.
+
+[3] 
