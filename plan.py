@@ -38,6 +38,7 @@ class VoiceStateMachine():
     def listen_to_one_response(self, responses):
         self.print_options(responses.keys())
         self.last_response = self.whisper_mic.listen()
+        print(f"Got speech response: {self.last_response}")
         for response, action in responses.items():
             if response in self.last_response.lower():
                 self.perform_action(action)
@@ -61,3 +62,7 @@ class VoiceStateMachine():
             self.current_state = action["new_state"]
         if "persona" in action:
             self.persona = action["persona"]
+
+    def print_state(self):
+        print(f"previous: {self.last_state}, next: {self.current_state}, persona: {self.persona}")
+
