@@ -1,0 +1,3 @@
+whisper-mic
+pyttsx3
+console
